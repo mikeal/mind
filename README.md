@@ -1,6 +1,6 @@
-# mind - A Manual
+# Mind - a manual
 
-This is a manual about this mind named "mind."
+This is a manual about this mind named "Mind."
 
 The root of this manual is a translation of "Six Subtle Dharma Doors," a classic buddhist mediation manual by the great master 智顗 (Zhìyǐ).
 
