@@ -8,6 +8,8 @@ Also included are numerous translations of other works, some partial, some compl
 
 The translator of each text is noted. Mikeal Rogers maintains this manual and is translating the root text. His teacher M. C. Owens is the translator for many of the referential works.
 
+[TOC]
+
 ## Introduction
 
 Buddhism has been studying this mind much longer than any other discipline. Masters of these teachings are easily recognized, as one can always see what one desires and we all desire liberation of one form or another.
@@ -16,9 +18,9 @@ Mastery of practice and knowledge are unseparated.
 
 Beyond both practice and knowledge is wisdom, which is also unseparated.
 
-Thinking we can obtain what is desired in a form of practice we will forsake wisdom for the sake of "realization."
+Thinking we can obtain what is desired in a form of practice, we forsake wisdom for the sake of "realization."
 
-Thinking we can obtain wisdom in the form of knowledge we forsake practice that realizes such wisdom.
+Thinking we can obtain wisdom in a form of knowledge, we forsake practice that realizes such wisdom.
 
 Already understanding all dharmas as originally unseparated, one forsakes nothing.
 
@@ -34,13 +36,12 @@ Appears to be reading and writing,
 
 Appears unseparated from no-thing.
 
-### A Manual
+## "A Manual"
 
 This is a manual I compile in the course of practice and share with all beings.
 
-It is optimized for accessibility as an ebook for display eInk devices. I've found these devices best for reading during practice and will include a supplemental section about it in due time.
+It is optimized for accessibility as an ebook for display on eInk devices. I've found these devices best for reading during practice and will include a supplemental section about it in due time.
 
-It can also be downloaded as an ebook for free on any device with a screen and there's a web version that is also accessible.
+It can also be downloaded as an ebook for free and viewed on any device with a screen online or offline, and there's a web version that is also accessible if one wishes to send a link to someone directly about a teaching.
 
-The book and site are built from markdown files maintained you can find on GitHub. Any questions, concerns, comments or corrections you can direct to that repository. You can also use the markdown files directly for AI prompts if you wish, as markdown is the unoffical prompt engineering language.
-
+The book and site are built from markdown files [maintained on GitHub](https://github.com/mikeal/mind). Any questions, concerns, comments or corrections you can direct to [that repository](https://github.com/mikeal/mind). You can also use the markdown files directly for AI prompts if you wish, as markdown is the unoffical prompt engineering language.

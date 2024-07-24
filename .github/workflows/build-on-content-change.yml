@@ -1,0 +1,109 @@
+name: Build EBook and Website
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+      - '**/*.jpg'
+      - '**/*.zsh'
+      - '**/*.css'
+      - 'template.html'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick calibre pandoc zsh unzip
+
+      - name: Install FiraGO fonts
+        run: |
+          mkdir -p ~/.local/share/fonts
+          curl -L -o /tmp/FiraGO.zip https://bboxtype.com/downloads/FiraGO/Download_Folder_FiraGO_1001.zip
+          if [ $? -ne 0 ]; then echo "Error downloading FiraGO.zip"; exit 1; fi
+          unzip /tmp/FiraGO.zip -d /tmp/FiraGO
+          if [ $? -ne 0 ]; then echo "Error unzipping FiraGO.zip"; exit 1; fi
+          find /tmp/FiraGO -type f -name "*.ttf" -exec cp {} ~/.local/share/fonts/ \;
+          fc-cache -f -v
+
+      - name: Verify FiraGO font installation
+        run: |
+          if fc-list | grep -qi 'FiraGO'; then
+            echo "FiraGO font is successfully installed."
+          else
+            echo "FiraGO font installation failed."
+            exit 1
+          fi
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Show available fonts for imagemagick
+        run: |
+          convert -list font
+
+      - name: Run EPUB build script
+        env:
+          GITHUB_ACTIONS: true
+        run: zsh ./build-ebook.zsh
+
+      - name: Run website build script
+        run: zsh ./build-website.zsh
+
+      - name: Rename EPUB file
+        run: |
+          mkdir -p website/downloads
+          mv LUSBSE.epub website/downloads/latest.epub
+
+      - name: Display build.md content
+        run: cat build.md
+
+      - name: Display tmp_cover.jpg details
+        run: |
+          file tmp_cover.jpg
+          ls -lh tmp_cover.jpg
+
+      - name: Upload cover image artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: tmp-cover-image
+          path: tmp_cover.jpg
+
+      - name: Stage website contents
+        run: |
+          mkdir -p staging
+          cp -r ./website/* staging/
+
+      - name: Checkout or create gh-pages branch
+        run: |
+          git fetch origin
+          if git rev-parse --verify origin/gh-pages; then
+            git checkout gh-pages
+            git reset --hard origin/gh-pages
+          else
+            git checkout --orphan gh-pages
+          fi
+
+      - name: Remove existing contents
+        run: git rm -rf .
+
+      - name: Copy website contents from staging
+        run: cp -r staging/* .
+
+      - name: Add and commit website contents, including ignored files
+        run: |
+          git add -A
+          git commit -m "Update GitHub Pages"
+          git push origin gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

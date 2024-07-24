@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'FiraGO', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'FiraGO', sans-serif;
+  font-weight: 400;
+}
+b, strong {
+  font-weight: bold;
+  font-weight: 700;
+}
+i, em {
+  font-style: italic;
+}
+b i, strong em, i b, em strong {
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 700;
+}
+pre { white-space: pre; }
