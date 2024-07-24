@@ -63,7 +63,7 @@ jobs:
       - name: Rename EPUB file
         run: |
           mkdir -p website/downloads
-          mv LUSBSE.epub website/downloads/latest.epub
+          mv mind.epub website/downloads/latest.epub
 
       - name: Display build.md content
         run: cat build.md
