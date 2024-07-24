@@ -38,7 +38,7 @@ Appears unseparated from no-thing.
 
 ## "A Manual"
 
-This is a manual I compile in the course of practice and share with all beings.
+This is a manual I compile in the course of practice and share with all beings. All the translations are currently under development and are updated frequently.
 
 It is optimized for accessibility as an ebook for display on eInk devices. I've found these devices best for reading during practice and will include a supplemental section about it in due time.
 
