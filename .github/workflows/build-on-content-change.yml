@@ -92,11 +92,11 @@ jobs:
         run: |
           cp -r website/* gh-pages-temp/
 
-      - name: Add and commit website contents, including ignored files
+      - name: Commit and force-push website contents
         working-directory: gh-pages-temp
         run: |
           git add -A
           git commit -m "Update GitHub Pages"
-          git push origin gh-pages
+          git push -f origin gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
