@@ -93,7 +93,7 @@ jobs:
         run: git rm -rf .
 
       - name: Copy website contents from staging
-        run: mv -r website/* .
+        run: mv website/* .
 
       - name: Add and commit website contents, including ignored files
         run: |
