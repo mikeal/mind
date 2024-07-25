@@ -27,7 +27,7 @@ concat_files() {
 AUTHORS="Mikeal Rogers, M. C. Owens, Zhìyǐ, Xuanzang, Buddha"
 TITLE="Mind - A Manual"
 TAGS="Mediation, Mediation Manual, Buddhism, Mind, Mind-Only, Dharma"
-PUBLISHER="Hear the World Sound"
+PUBLISHER="Free Dharma"
 PUBDATE=$(date +%Y-%m-%d)  # Set current date dynamically
 LANGUAGE="en"
 
