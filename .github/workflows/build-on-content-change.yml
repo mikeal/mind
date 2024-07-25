@@ -79,23 +79,21 @@ jobs:
           name: tmp-cover-image
           path: tmp_cover.jpg
 
-      - name: Checkout or create gh-pages branch
+      - name: Checkout or create gh-pages branch in a new directory
         run: |
-          git fetch origin
-          if git rev-parse --verify origin/gh-pages; then
-            git checkout gh-pages
-            git reset --hard origin/gh-pages
-          else
-            git checkout --orphan gh-pages
-          fi
+          mkdir gh-pages-temp
+          git worktree add gh-pages-temp gh-pages || git worktree add gh-pages-temp -b gh-pages
 
-      - name: Remove existing contents
-        run: git rm -rf .
+      - name: Clear existing contents
+        run: |
+          rm -rf gh-pages-temp/*
 
       - name: Copy website contents from staging
-        run: mv website/* .
+        run: |
+          cp -r website/* gh-pages-temp/
 
       - name: Add and commit website contents, including ignored files
+        working-directory: gh-pages-temp
         run: |
           git add -A
           git commit -m "Update GitHub Pages"
