@@ -8,6 +8,7 @@ concat_files() {
     echo "- **Build Type**: $BUILD_TYPE" >> $output_file
     echo "- **Date**: $PUBDATE" >> $output_file
     echo "- **Commit Hash**: $GIT_COMMIT" >> $output_file
+    echo "\n\n This ebook and its build process are open source and [available on GitHub](https://github.com/mikeal/mind)." >> $output_file
     echo "" >> $output_file
 
     cat \
