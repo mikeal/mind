@@ -79,11 +79,6 @@ jobs:
           name: tmp-cover-image
           path: tmp_cover.jpg
 
-      - name: Stage website contents
-        run: |
-          mkdir -p staging
-          cp -r ./website/* staging/
-
       - name: Checkout or create gh-pages branch
         run: |
           git fetch origin
@@ -98,7 +93,7 @@ jobs:
         run: git rm -rf .
 
       - name: Copy website contents from staging
-        run: cp -r staging/* .
+        run: mv -r website/* .
 
       - name: Add and commit website contents, including ignored files
         run: |
