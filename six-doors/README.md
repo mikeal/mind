@@ -1,4 +1,4 @@
-# Six Subtle Dharma Doors
+# Root Text (Six Subtle Dharma Doors)
 
 Written by 智顗 (Zhìyǐ) the Great Master of Tiantai at Waguang Monastery.
 

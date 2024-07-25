@@ -16,6 +16,9 @@ concat_files() {
         ./six-doors/00-Beginning.md \
         ./six-doors/01-Dhyana.md \
         ./six-doors/02-Sequence.md \
+        ./sutras/README.md \
+        ./sutras/T0124_001.md \
+        ./sutras/Vikalpa-Yoga.md \
     >> $output_file
 }
 

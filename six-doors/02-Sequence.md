@@ -22,6 +22,8 @@ immediately arouse Three Vehicles free from outflows (āsrava),
 況復具足諸禪三昧？
 how much more fully equipped with all dhyāna and samādhi?
 
+### Counting (gaṇanā)
+
 此即與前有異。所以者何？如數有二種：一者修數，二者證數。修數者，行者調和氣息，不澁不滑，安詳徐數，從一至十，攝心在數，不令馳散，是名修數。證數者，覺心任運，從一至十，不加功力，心住息緣，覺息虛微，心相漸細。
 
 此即與前有異。
@@ -81,7 +83,7 @@ realizing subtle emptiness of breath,
 心相漸細。
 appearances of mind become progressively subtle.
 
-### Resting (samatha)
+### Following (anugamaḥ)
 
 患數為麁，意不欲數。爾時行者應當放數修隨。隨亦有二：一者修隨，二者證隨。修隨者，捨前數法，一心依隨息之出入，攝心緣息，知息入出，心住息緣，無分散意。是名修隨。證隨者，心既微細，安靜不亂，覺息長短，遍身入出，心息任運相依，意慮恬然凝靜。
 
@@ -118,22 +120,24 @@ aware of breath being long or short, pervading every body entering and exiting,
 心息任運相依，意慮恬然凝靜。
 mind breath naturally interdepend upon one another, relective thought settles into serene stillness.
 
+### Resting (śamatha)
+
 覺隨為麁，心厭欲捨，如人疲極欲眠，不樂眾務。爾時行者應當捨隨修止。止亦有二：一者修止，二者證止。修止者，息諸緣慮，不念數隨，凝寂其心，是名修止。證止者，覺身心泯然入定，不見內外相貌，定法持心，任運不動。
 
 覺隨為麁，心厭欲捨，如人疲極欲眠，不樂眾務。
 Confirming following (anugamaḥ) is coarse, mind weary desires abandonment, like a person exhausted and desiring to sleep, not enjoying many tasks.
 
 爾時行者應當捨隨修止。
-At such a time, practitioners should abandon following and practice resting (samatha).
+At such a time, practitioners should abandon following and practice resting (śamatha).
 
 止亦有二：一者修止，二者證止。
-Resting also has two aspects: the first is practicing resting (samatha), and the second is realising resting (samatha).
+Resting also has two aspects: the first is practicing resting (śamatha), and the second is realising resting (śamatha).
 
 修止者，息諸緣慮，不念數隨，凝寂其心，是名修止。
-Practicing resting (samatha) involves ceasing all dependent thoughts, not thinking of counting or following, making the mind calm and tranquil. This is called practicing resting.
+Practicing resting (śamatha) involves ceasing all dependent thoughts, not thinking of counting or following, making the mind calm and tranquil. This is called practicing resting.
 
 證止者，覺身心泯然入定，不見內外相貌，定法持心，任運不動。
-Realising resting (samatha) involves sensing the body and mind completely merge in samadhi, not perceiving inner or outer forms, with the samadhi principle (dharma) sustaining the mind, naturally unmoving.
+Realising resting (śamatha) involves sensing the body and mind completely merge in samadhi, not perceiving inner or outer forms, with the samadhi principle (dharma) sustaining the mind, naturally unmoving.
 
 ### Intuiting (vipaśyanā)
 
@@ -322,3 +326,7 @@ returning to original nature,
 
 是名證還。
 this is called realizing turning.
+
+### Purifying (pariśuddhiḥ)
+
+行者當知，若離境智，欲歸無境智，不離境智縛，以隨二邊故。爾時當捨還門，安心淨道。淨亦有二：一者修淨，二者證淨。修淨者，知色淨故，不起妄想分別，受、想、行、識亦復如是。息妄想垢，是名修淨；息分別垢，是名修淨；息取我垢，是名修淨。舉要言之，若能心如本淨，是名修淨；亦不得能修、所修及淨、不淨，是名修淨。證淨者，如是修時，豁然心惠相應，無礙方便任運開發，三昧正受，心無依恃。證淨有二：一者相似證，五方便相似無漏道惠發；二者真實證，苦法忍乃至第九無礙道等真無漏惠發也。三界垢盡，故名證淨。

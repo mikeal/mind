@@ -1,6 +1,8 @@
 
 ## Distinguishing and clarifying various Dhyānas in relation to Six Subtle Doors
 
+### Counting (gaṇanā)
+
 釋「第一、歷別對諸禪定明六妙門」，即為六意。一者依「數」為妙門。行者因數息故，即能出生四禪、四無量心、四無色定，若於最後非非想定，能覺知非是涅槃，是人必定得三乘道。何以故？此定陰、界、入和合故有，虛誑不實，雖無麁煩惱，而亦成就十種細煩惱。知已破折，不住不著，心得解脫，即證三乘涅槃故。此義如須跋陀羅，佛教斷非非想處惑，即便獲得阿羅漢果。「數」為妙門，意在於此也。
 
 釋「第一、歷別對諸禪定明六妙門」，即為六意。
@@ -38,6 +40,8 @@ This meaning is exemplified by Subhūtarā, taught by the Buddha to sever delusi
 
 「數」為妙門，意在於此也。
 Counting (saṃkhyā) as a subtle door is intended in this way.
+
+### Following (anugamaḥ)
 
 二者「隨」為妙門者，行者因隨息故，即能出生十六特勝，所謂：一、知息入，二、知息出，三、知息長短，四、知息遍身，五、除諸身行，六、心受喜，七、心受樂，八、受諸心行，九、心作喜，十、心作攝，十一、心作解脫，十二、觀無常，十三、觀出散，十四、觀離欲，十五、觀滅，十六、觀棄捨。云何觀棄捨？此觀破非想處惑。所以者何？凡夫修非想時，觀有想處如癕、如瘡，觀無想處如癡也。第一妙定，名曰「非想」。作是念已，即棄捨有想、無想，名「非有想非無想」，故知非想即是兩捨之義。今佛弟子觀行破折，義如前說，是故深觀棄捨，不著非想，能得涅槃。「隨」為妙門，意在此也。
 
@@ -125,10 +129,12 @@ Now disciples of Buddha observe and dismantle practice, as previously explained,
 「隨」為妙門，意在此也。
 Following (anugamaḥ) as a subtle door, is meant like this.
 
+### Resting (śamatha)
+
 三者「止」為妙門者，行者因止心故，即便次第發五輪禪：一者地輪三昧，即未到地；二者水輪三昧，即是種種諸禪定善根發也；三者虛空輪三昧，即五方便人覺因緣無性如虛空；四者金沙輪三昧，即是見思解脫，無著正惠如金沙也；五者金剛輪三昧，即是第九無礙道，能斷三界結使，永盡無餘，證盡智、無生智，入涅槃。「止」為妙門，意在此也。
 
 三者「止」為妙門者，行者因止心故，即便次第發五輪禪：
-Thirdly "Resting (samatha)" as a subtle door, due to a practioner resting mind, they immediately arouse the Five-Wheel Dhyāna (五輪禪, Wǔlún Chán) in due order:
+Thirdly "Resting (śamatha)" as a subtle door, due to a practioner resting mind, they immediately arouse the Five-Wheel Dhyāna (五輪禪, Wǔlún Chán) in due order:
 
 一者地輪三昧，即未到地；
 First is the Earth (地 [dì]) Wheel Samadhi, the ground (地 [dì]) of non-arrival.
@@ -146,7 +152,9 @@ Fourth is the Gold Sand Wheel Samadhi, which is liberation from views and though
 Fifth is the Vajra Wheel Samadhi, which is the ninth unobstructed path, able to sever hindrances of the three realms, completely exhausted without remainder, realize knowledge of exhaustion and knowledge of non-arising, entering nirvāṇa.
 
 「止」為妙門，意在此也。
-Resting (samatha) as a subtle door, is meant like this.
+Resting (śamatha) as a subtle door, is meant like this.
+
+### Intuiting (vipaśyanā)
 
 四者「觀」為妙門者，行者因修觀故，即能出生九想、八念、十想、八背捨、八勝處、十一切處、九次第定、師子奮迅三昧、超越三昧、練禪、十四變化心、三明、六通及八解脫，得滅受想，即入涅槃。「觀」為妙門，意在此也。
 
@@ -207,6 +215,8 @@ at once enter nirvāṇa.
 「觀」為妙門，意在此也。
 Intuiting (vipaśyanā) as a subtle door, is meant like this.
 
+### Turning (vivartanā)
+
 五者「還」為妙門者，行者若用惠行，善巧破折，反本還源，是時即便出生空、無想、無作、三十七品、四諦、十二因緣、中道正觀，因此得入涅槃。「還」為妙門，意在此也。
 
 五者「還」為妙門者，
@@ -241,6 +251,8 @@ thus attain entry to Nirvana.
 
 「還」為妙門，意在此也。
 Turning (vivartanā) as a subtle door, is meant like this.
+
+### Purifying (pariśuddhiḥ)
 
 六者「淨」為妙門者，行者若能體識一切諸法本性清淨，即便獲得自性禪也。得此禪故，二乘之人定證涅槃。若是菩薩入鐵輪位，具十信心，修行不止，即便出生九種大禪，所謂自性禪、一切禪、難禪、一切門禪、善人禪、一切行禪、除惱禪、此世他世樂禪、清淨禪。菩薩依是禪故，得大菩提果，已得、今得、當得。「淨」為妙門，意在此也。
 

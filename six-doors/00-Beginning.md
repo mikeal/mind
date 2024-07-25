@@ -24,7 +24,7 @@ First, Counting (gaṇanā)
 Second, Following (anugamaḥ)
 
 三、止，
-Third, Resting (samatha)
+Third, Resting (śamatha)
 
 四、觀，
 Fourth, Intuiting (vipaśyanā)
@@ -100,7 +100,7 @@ so there are four practices of sessation within,
 called: cessation (nirodha),
 
 止、
-resting (samatha),
+resting (śamatha),
 
 妙、
 subtle (praṇīta),
