@@ -8,6 +8,8 @@ Also included are numerous translations of other works, some partial, some compl
 
 The translator of each text is noted. Mikeal Rogers maintains this manual and is translating the root text. His teacher M. C. Owens is the translator of many of the referential works.
 
+[The latest epub build is downloadable here.](https://mikeal.github.io/mind/downloads/latest.epub)
+
 [TOC]
 
 ## Introduction
@@ -24,7 +26,7 @@ This manual arranges selected classical buddhist canon for modern practice. It i
 
 The older a text the less complex the language. Less language complexity means less need for explanatory translation and commentary. Just read and understand it directly. The more you practice with it, the more you will realize it directly.
 
-Modern translations of classical buddhist canon often add complexity to the language. They consider it necessary to include their perceived context and setting for such language, steering such language away from the universal and often rather common and simple original language.
+Modern translations of classical buddhist canon often add complexity to the original language. They consider it necessary to include a perceived context and setting for such language, steering original language away from the universal and often rather common and simple.
 
 You won't see many words from me in this manual. Buddhist works speak for themselves, best to step aside and let them speak. As commentary I've included translations of other works that illuminate the root text, mostly sutras. The arrangement of the texts along with index tables and links that aid in the use of these teachings are my primary addition.
 
@@ -32,8 +34,10 @@ You won't see many words from me in this manual. Buddhist works speak for themse
 
 This is a manual I compile in the course of practice and share with all beings. All translations are under development and updated frequently.
 
-It is optimized for accessibility as an ebook for display on eInk devices. I've found these devices best for reading during practice and will include a supplemental section about it in due time.
+It is optimized for accessibility as an ebook for display on eInk devices. I've found these devices best for reading during practice and will include a supplemental section about that in due time.
 
 It can also be downloaded as an ebook for free and viewed on any device with a screen online or offline, and there's a web version that is also accessible if one wishes to send a link to someone directly about a teaching.
+
+[The latest epub build is downloadable here.](https://mikeal.github.io/mind/downloads/latest.epub)
 
 The book and site are built from markdown files [maintained on GitHub](https://github.com/mikeal/mind). Any questions, concerns, comments or corrections you can direct to [that repository](https://github.com/mikeal/mind). You can also use the markdown files directly for AI prompts if you wish, as markdown is the unoffical prompt engineering language.
