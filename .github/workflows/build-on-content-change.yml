@@ -90,6 +90,9 @@ jobs:
 
       - name: Copy website contents from staging
         run: |
+          cp -R fonts website/
+          cp -R images website/
+          cp site.css website/
           cp -r website/* gh-pages-temp/
 
       - name: Commit and force-push website contents
