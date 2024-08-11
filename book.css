@@ -21,3 +21,7 @@ b i, strong em, i b, em strong {
   font-weight: 700;
 }
 pre { white-space: pre; }
+p {
+    text-indent: 0 !important;
+    margin: 1em 0; /* Optional: ensures paragraphs have sufficient spacing */
+}
