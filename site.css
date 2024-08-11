@@ -138,3 +138,66 @@ html {
     font-size: 1rem;
   }
 }
+
+
+h1[id], h2[id], h3[id], h4[id], h5[id], h6[id] {
+    position: relative;
+}
+
+h1[id]::before, h2[id]::before, h3[id]::before,
+h4[id]::before, h5[id]::before, h6[id]::before {
+    content: "🔗"; /* You can replace this with a link icon, hash, or any other symbol */
+    position: absolute;
+    left: -25px; /* Adjust this value based on your layout */
+    top: 0;
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+h1[id]::before:hover, h2[id]::before:hover,
+h3[id]::before:hover, h4[id]::before:hover,
+h5[id]::before:hover, h6[id]::before:hover {
+    color: #007BFF; /* Optional: Change the color on hover */
+}
+
+h1[id]::before {
+    content: "🔗"; /* Icon or text before H1 */
+}
+
+h2[id]::before {
+    content: "🔗"; /* Icon or text before H2 */
+}
+
+/* Repeat for other heading levels if needed */
+
+/* Make the icon a link */
+h1[id]::before, h2[id]::before, h3[id]::before,
+h4[id]::before, h5[id]::before, h6[id]::before {
+    cursor: pointer;
+}
+
+h1[id]::before:hover, h2[id]::before:hover, h3[id]::before:hover,
+h4[id]::before:hover, h5[id]::before:hover, h6[id]::before:hover {
+    text-decoration: underline;
+}
+
+/* Ensure the icon links to the heading */
+h1[id]::before, h2[id]::before, h3[id]::before,
+h4[id]::before, h5[id]::before, h6[id]::before {
+    content: "🔗"; /* Replace with your preferred symbol */
+    font-size: 0.8em;
+    margin-right: 0.5em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1[id]::before, h2[id]::before, h3[id]::before,
+h4[id]::before, h5[id]::before, h6[id]::before {
+    content: "🔗"; /* Change this to the symbol you want to use */
+}
+
+h1[id]::before, h2[id]::before, h3[id]::before,
+h4[id]::before, h5[id]::before, h6[id]::before {
+    content: "🔗"; /* Icon or text before H3 */
+}
