@@ -77,7 +77,6 @@ ebook-convert "$OUTPUT_FILE" "mind.epub" \
 --page-breaks-before "$PAGE_BREAKS_BEFORE" \
 --cover "$TMP_COVER_IMAGE" \
 --preserve-cover-aspect-ratio \
---preserve-spaces \
 --chapter "//*[name()='h1' or name()='h2' or name()='h3']" --level1-toc "//*[name()='h1']" --level2-toc "//*[name()='h2']" --level3-toc "//*[name()='h3']" \
 --pretty-print
 

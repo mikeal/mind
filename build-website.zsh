@@ -33,6 +33,7 @@ convert_md_to_html() {
         --css="$css_file" \
         --toc \
         --highlight-style=pygments \
+        --section-divs \
         --metadata title="$title" \
         --template=./template.html \
         --from=markdown+footnotes+hard_line_breaks+smart+pipe_tables+fenced_code_blocks
