@@ -55,4 +55,37 @@ echo "# Mind [A Manual] - Single Page Book" | cat - build.md > "$tmp_file"
 convert_md_to_html "$tmp_file" "website/book.html" "site.css"
 rm "$tmp_file"
 
+# Function to extract TOC from an HTML file
+extract_toc() {
+    local input_file=$1
+    local toc=$(sed -n '/<nav id="TOC"/,/<\/nav>/p' "$input_file")
+    echo "$toc"
+}
+
+# Extract TOC from book.html
+toc=$(extract_toc "website/book.html")
+
+# Function to replace TOC in index.html
+replace_toc() {
+    local input_file=$1
+    local new_toc=$2
+
+    # Remove the existing TOC
+    sed -i '/<nav id="TOC"/,/<\/nav>/d' "$input_file"
+
+    # Insert the new TOC
+    sed -i "/<body>/a$new_toc" "$input_file"
+}
+
+# Replace TOC in index.html
+replace_toc "website/index.html" "$toc"
+
+cleanup_toc_placeholder() {
+    local input_file=$1
+    sed -i '/<p>\[TOC\]<\/p>/d' "$input_file"
+}
+
+cleanup_toc_placeholder "website/index.html"
+cleanup_toc_placeholder "website/book.html"
+
 echo "Website generation complete!"
