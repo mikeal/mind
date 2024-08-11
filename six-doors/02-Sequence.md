@@ -330,3 +330,65 @@ this is called realizing turning.
 ### Purifying (pariśuddhiḥ)
 
 行者當知，若離境智，欲歸無境智，不離境智縛，以隨二邊故。爾時當捨還門，安心淨道。淨亦有二：一者修淨，二者證淨。修淨者，知色淨故，不起妄想分別，受、想、行、識亦復如是。息妄想垢，是名修淨；息分別垢，是名修淨；息取我垢，是名修淨。舉要言之，若能心如本淨，是名修淨；亦不得能修、所修及淨、不淨，是名修淨。證淨者，如是修時，豁然心惠相應，無礙方便任運開發，三昧正受，心無依恃。證淨有二：一者相似證，五方便相似無漏道惠發；二者真實證，苦法忍乃至第九無礙道等真無漏惠發也。三界垢盡，故名證淨。
+
+行者當知，若離境智，欲歸無境智，不離境智縛，以隨二邊故。
+Practitioners must know, if separated from realm wisdom, desiring return without realm wisdom, not separated from realm wisdom's constraints, caused by following the two extremes[^2e].
+
+[^2e]: The "two extremes" are **eternalism** (śāśvata-dṛṣṭi), which posits an unchanging, eternal self, and **nihilism** (uccheda-dṛṣṭi), which denies any form of continuity or existence after death.
+
+爾時當捨還門，安心淨道。
+At such a time you should abandon the turning door, rest mind on pure path.
+
+淨亦有二：一者修淨，二者證淨。
+Purifying (pariśuddhiḥ) also has two aspects: one is practicing purifying, and the other is realizing purifying.
+
+修淨者，
+One who practices purifying,
+
+知色淨故，
+knows form's pure cause,
+
+不起妄想分別，
+not arousing false thoughts descrimintating,
+
+受、想、行、識亦復如是。
+feeling, perceiving, forming, and consciousness are also this way.
+
+息妄想垢，是名修淨；
+Ceasing false thoughts un-purifying, this is called practicing purifying;
+
+息分別垢，是名修淨；
+ceasing descriminating un-purifying, this is called practicing purifying;
+
+息取我垢，是名修淨。
+ceasing appropriating self un-purifying, this is called practicing purifying.
+
+舉要言之，若能心如本淨，是名修淨；
+In summary, if able to mind as originally pure, this is called practicing purifying;
+
+亦不得能修、所修及淨、不淨，
+also not attaining practice, that which is practiced and pure, impure,
+
+是名修淨。
+this is called practicing purifying.
+
+證淨者，如是修時，豁然心惠相應，
+Realizing purifying, while practicing thus, clear mind and wisdom harmonize,
+
+無礙方便任運開發，
+unhindered skillful means (upaya) naturally develop,
+
+三昧正受，心無依恃。
+samadhi rightly received, mind without dependence to depend on.
+
+證淨有二：
+Realizing purifying has two aspects:
+
+一者相似證，五方便相似無漏道惠發；
+The first is approximate realization, skillful means (upaya) approximating a path free from outflows manifesting wisdom;
+
+二者真實證，苦法忍乃至第九無礙道等真無漏惠發也。
+The second is true realization, patient endurance of the truth of suffering up to the ninth unobstructed path and so on truly free from outflows manifesting wisdom realized.
+
+三界垢盡，故名證淨。
+Defilements of the three realms exhausted, so it is called realizing purifying.
