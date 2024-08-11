@@ -34,12 +34,13 @@ body {
   font-family: 'FiraGO', sans-serif;
   font-weight: 400;
   margin: 0;
-  padding: 0;
+  padding: 20px; /* Add some padding for better readability */
   line-height: 1.6;
+  background-color: #f9f9f9; /* Soft background color for better readability */
+  color: #333; /* Dark text color for good contrast */
 }
 
 b, strong {
-  font-weight: bold;
   font-weight: 700;
 }
 
@@ -48,12 +49,92 @@ i, em {
 }
 
 b i, strong em, i b, em strong {
-  font-weight: bold;
-  font-style: italic;
   font-weight: 700;
+  font-style: italic;
 }
 
 pre {
   white-space: pre;
   font-family: 'Courier New', Courier, monospace;
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.25;
+  margin: 0;
+  padding: 10px 0;
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+ul, ol {
+  margin: 20px;
+  padding: 0 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ensure proper font sizes and responsiveness */
+
+html {
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
+  }
+
+  h3 {
+    font-size: 1.125rem;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 15px;
+  }
+
+  body {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.125rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
 }
