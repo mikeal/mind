@@ -15,18 +15,22 @@ extract_title() {
 convert_md_to_html() {
     local input_file=$1
     local output_file=$2
+    local css_file=$3
+
     local title=$(extract_title "$input_file")
 
-    if [[ "$input_file" == "README.md" || "$input_file" == "build.md" ]]; then
-        local css_path="site.css"
-    else
-        local depth=$(echo "$output_file" | awk -F'/' '{print NF-1}')
-        local css_path=$(printf '../%.0s' $(seq 1 $depth))site.css
+    if [[ -z "$css_file" ]]; then
+        if [[ "$input_file" == "README.md" || "$input_file" == "build.md" ]]; then
+            css_file="site.css"
+        else
+            local depth=$(echo "$output_file" | awk -F'/' '{print NF-1}')
+            css_file=$(printf '../%.0s' $(seq 1 $depth))site.css
+        fi
     fi
 
     # Enable markdown extensions and generate table of contents
     pandoc "$input_file" -o "$output_file" \
-        --css="$css_path" \
+        --css="$css_file" \
         --toc \
         --highlight-style=pygments \
         --metadata title="$title" \
@@ -47,7 +51,7 @@ convert_md_to_html "README.md" "website/index.html"
 # Prepend header to build.md and convert it to single-page-book.html
 tmp_file="build_tmp.md"
 echo "# Mind [A Manual] - Single Page Book" | cat - build.md > "$tmp_file"
-convert_md_to_html "$tmp_file" "website/book.html"
+convert_md_to_html "$tmp_file" "website/book.html" "site.css"
 rm "$tmp_file"
 
 echo "Website generation complete!"
