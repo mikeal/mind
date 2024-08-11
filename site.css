@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'FiraGO';
+  src: url('fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff2') format('woff2'),
+       url('fonts/FiraGO_WEB_1001/Roman/FiraGO-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  src: url('fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff2') format('woff2'),
+       url('fonts/FiraGO_WEB_1001/Roman/FiraGO-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  src: url('fonts/FiraGO_WEB_1001/Italic/FiraGO-Italic.woff2') format('woff2'),
+       url('fonts/FiraGO_WEB_1001/Italic/FiraGO-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  src: url('fonts/FiraGO_WEB_1001/Italic/FiraGO-BoldItalic.woff2') format('woff2'),
+       url('fonts/FiraGO_WEB_1001/Italic/FiraGO-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: 'FiraGO', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+b, strong {
+  font-weight: bold;
+  font-weight: 700;
+}
+
+i, em {
+  font-style: italic;
+}
+
+b i, strong em, i b, em strong {
+  font-weight: bold;
+  font-style: italic;
+  font-weight: 700;
+}
+
+pre {
+  white-space: pre;
+  font-family: 'Courier New', Courier, monospace;
+}

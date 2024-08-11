@@ -44,7 +44,10 @@ done
 # Convert README.md to index.html with additional metadata
 convert_md_to_html "README.md" "website/index.html"
 
-# Convert build.md to single-page-book.html with the same special casing
-convert_md_to_html "build.md" "website/single-page-book.html"
+# Prepend header to build.md and convert it to single-page-book.html
+tmp_file="build_tmp.md"
+echo "# Mind [A Manual] - Single Page Book" | cat - build.md > "$tmp_file"
+convert_md_to_html "$tmp_file" "website/book.html"
+rm "$tmp_file"
 
 echo "Website generation complete!"
