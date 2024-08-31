@@ -132,7 +132,7 @@ first, distinguishing and clarifying various Dhyānas in relation to Six Subtle 
 second, sequential appearance of Six Subtle Doors,
 
 第三、隨便宜六妙門，
-third, adapting Six Subtle Doors to circumstance,
+third, adapting Six Subtle Doors to convenience,
 
 第四、隨對治六妙門，
 fourth, developing counteraction with Six Subtle Doors,

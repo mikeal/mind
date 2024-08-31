@@ -392,3 +392,47 @@ The second is true realization, patient endurance of the truth of suffering up t
 
 三界垢盡，故名證淨。
 Defilements of the three realms exhausted, so it is called realizing purifying.
+
+復次，觀眾生空，故名為觀；觀實法空，故名為還；觀平等空，故名為淨。復次，空三昧相應，故名為觀；無相三昧相應，故名為還；無作三昧相應，故名為淨。復次，一切外觀名為觀；一切內觀名為還；一切非內非外觀名為淨。故先尼梵志言：「非內觀故，得是智惠；非外觀故，得是智惠；非內外觀故，得是智惠；亦不無觀故，得是智惠也。」
+
+復次，觀眾生空，故名為觀；
+Next, observing beings as empty, thus called "observing" (vipaśyanā);
+
+觀實法空，故名為還；
+observing true dharmas as empty, thus called "turning" (vivartanā);
+
+觀平等空，故名為淨。
+observing equality as empty, thus called "purifying" (pariśuddhiḥ).
+
+復次，空三昧相應，故名為觀；
+Next, corresponding to the emptiness samādhi, thus called "observing";
+
+無相三昧相應，故名為還；
+corresponding to the signless samādhi, thus called "turning";
+
+無作三昧相應，故名為淨。
+corresponding to the wishless samādhi, thus called "purifying".
+
+復次，一切外觀名為觀；
+Next, all external observations are called "observing";
+
+一切內觀名為還；
+all internal observations are called "turning";
+
+一切非內非外觀名為淨。
+all neither internal nor external observations are called "purifying".
+
+故先尼梵志言：
+Therefore, the former ascetic Nivṛtti said:
+
+「非內觀故，得是智惠；
+"Not observing internally, thus attaining this wisdom;
+
+非外觀故，得是智惠；
+not observing externally, thus attaining this wisdom;
+
+非內外觀故，得是智惠；
+not observing internally and externally, thus attaining this wisdom;
+
+亦不無觀故，得是智惠也。」
+also not without observing, thus attaining this wisdom."
